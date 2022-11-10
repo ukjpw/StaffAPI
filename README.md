@@ -360,7 +360,7 @@
             <th>Status</th>
             <th>Description</th>
             <th>Response Code</th>
-            <th>Response Body (Example for successful operation)</th>            
+            <th>Response Body (Example shown when request is successful)</th>            
         </tr>       
     </thead>
     <tbody>
@@ -416,7 +416,7 @@
             <th>Status</th>
             <th>Description</th>
             <th>Response Code</th>
-            <th>Response Body (Example)</th>            
+            <th>Response Body (Example shown when request is successful)</th>            
         </tr>       
     </thead>
     <tbody>

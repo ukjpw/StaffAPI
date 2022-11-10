@@ -1,50 +1,6 @@
 <!DOCTYPE html>
+<html>
 <head>
-
-    <style>
-          
-        body {
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        h2 {
-           margin-top: 1.3rem     
-        }
-
-        table {
-          
-          border-collapse: collapse;
-          width: 90%;
-        }
-        
-        td, th {
-          border: 1px solid #ddd;
-          padding: 8px;
-        }
-
-        tr:nth-child(even){background-color: #f2f2f2;}
-
-        th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #4134f0;
-            color: white;
-        }
-
-
-        .staff_id_url_segment {
-            font-weight: bold;
-            color: green;
-        }
-
-        caption {
-            text-align: left;
-            font-weight: bold;
-            padding-bottom: 0.8rem;
-        }
-
-      </style>  
 </head>
 <body>
 <h1>StaffAPI</h1>
@@ -90,7 +46,6 @@
             <th>Max Length</th>
             <th>Range of Values</th>
             <th>Required?</th>
-
         </tr>       
     </thead>
     <tbody>
@@ -99,8 +54,7 @@
             <td>string - valid email</td>
             <td>255</td>
             <td>-</td>
-            <td>Yes</td>
-            
+            <td>Yes</td>            
         </tr>
         <tr>
             <td>password</td>
@@ -114,16 +68,14 @@
             <td>string</td>
             <td>255</td>
             <td>-</td>
-            <td>Yes</td>
-            
+            <td>Yes</td>            
         </tr>
         <tr>
             <td>last_name</td>
             <td>string</td>
             <td>255</td>
             <td>-</td>
-            <td>Yes</td>
-            
+            <td>Yes</td>            
         </tr>
         <tr>
             <td>status</td>
@@ -226,7 +178,6 @@
             <th>Max Length</th>
             <th>Range of Values</th>
             <th>Required?</th>
-
         </tr>       
     </thead>
     <tbody>
@@ -235,8 +186,7 @@
             <td>string - valid email</td>
             <td>255</td>
             <td>-</td>
-            <td>No</td>
-            
+            <td>No</td>            
         </tr>
         <tr>
             <td>password</td>
@@ -250,16 +200,14 @@
             <td>string</td>
             <td>255</td>
             <td>-</td>
-            <td>No</td>
-            
+            <td>No</td>            
         </tr>
         <tr>
             <td>last_name</td>
             <td>string</td>
             <td>255</td>
             <td>-</td>
-            <td>No</td>
-            
+            <td>No</td>            
         </tr>
         <tr>
             <td>status</td>
